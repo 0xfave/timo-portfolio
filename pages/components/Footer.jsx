@@ -20,18 +20,18 @@ const Footer = () => {
                 </div>
                 <div>
                     <h5>Let’s find a estimate on your Project.</h5>
-                    <form class="w-full max-w-sm">
-                        <div class="flex items-center border-b border-[#5CD2B9] py-2">
-                            <input class="appearance-none bg-transparent border-none w-full text-gray-700 mr-3 py-1 px-2 leading-tight focus:outline-none" type="text" placeholder="Jane Doe" aria-label="Full name" />
+                    <form className="w-full max-w-sm">
+                        <div className="flex items-center border-b border-[#5CD2B9] py-2">
+                            <input className="appearance-none bg-transparent border-none w-full text-gray-700 mr-3 py-1 px-2 leading-tight focus:outline-none" type="text" placeholder="Jane Doe" aria-label="Full name" />
                         </div>
-                        <div class="flex items-center border-b border-[#5CD2B9] py-2">
-                            <input class="appearance-none bg-transparent border-none w-full text-gray-700 mr-3 py-1 px-2 leading-tight focus:outline-none" type="email" placeholder="Your Email" aria-label="E-mail" />
+                        <div className="flex items-center border-b border-[#5CD2B9] py-2">
+                            <input className="appearance-none bg-transparent border-none w-full text-gray-700 mr-3 py-1 px-2 leading-tight focus:outline-none" type="email" placeholder="Your Email" aria-label="E-mail" />
                         </div>
-                        <div class="flex items-center border-b border-[#5CD2B9] py-2">
-                            <input class="appearance-none bg-transparent border-none w-full text-gray-700 mr-3 py-1 px-2 leading-tight focus:outline-none" type="text" placeholder="Message" aria-label="Message" />
+                        <div className="flex items-center border-b border-[#5CD2B9] py-2">
+                            <input className="appearance-none bg-transparent border-none w-full text-gray-700 mr-3 py-1 px-2 leading-tight focus:outline-none" type="text" placeholder="Message" aria-label="Message" />
                         </div>
 
-                        <button class="flex-shrink-0 mt-4 bg-[#5CD2B9] hover:bg-teal-700 border-[#5CD2B9] hover:border-teal-700 text-sm border-4 text-white py-1 px-2 rounded" type="button">
+                        <button className="flex-shrink-0 mt-4 bg-[#5CD2B9] hover:bg-teal-700 border-[#5CD2B9] hover:border-teal-700 text-sm border-4 text-white py-1 px-2 rounded" type="button">
                             Send
                         </button>
                     </form>

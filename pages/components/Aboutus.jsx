@@ -27,7 +27,7 @@ const Aboutus = () => {
                 </p>
                 <div className='grid md:grid-cols-2 gap-2 !m-0 mt-0'>
                     <div className="max-w-[200px]">
-                        <Card className='text-center !p-0 bg-black border-none ' horizontal={true}>
+                        <Card className='text-center !p-0 !bg-black border-none ' horizontal={true}>
                             <div className="grid grid-cols-2 justify-center">
                                 <Image src={eye} alt="" />
                                 <h5 className="text-md font-bold tracking-tight mt-2">
@@ -40,7 +40,7 @@ const Aboutus = () => {
                         </Card>
                     </div>
                     <div className="max-w-[200px]">
-                        <Card className='text-center !p-0 bg-black border-none ' horizontal={true}>
+                        <Card className='text-center !p-0 !bg-black border-none ' horizontal={true}>
                             <div className="grid grid-cols-2 justify-center">
                                 <Image src={modern} alt="" />
                                 <h5 className="text-md font-bold tracking-tight mt-2">
