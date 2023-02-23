@@ -16,7 +16,7 @@ const Clients = () => {
                 <Card className='text-center !p-0 !bg-transparent border-none'>
                     <Image src={project} alt="" />
                     <h5 className={`${worksan.className} text-[#5CD2B9] text-md font-bold tracking-tight`}>
-                        150<span className='text-white'>+</span>
+                        20<span className='text-white'>+</span>
                     </h5>
                     <p className={`${worksan.className} font-normal`}>
                         Project Done
@@ -30,7 +30,7 @@ const Clients = () => {
                         75<span className='text-white'>+</span>
                     </h5>
                     <p className={`${worksan.className} font-normal`}>
-                        Award Winning
+                        Happy Customer
                     </p>
                 </Card>
             </div>
@@ -38,7 +38,7 @@ const Clients = () => {
                 <Card className='text-center !p-0 !bg-transparent border-none'>
                     <Image src={award} alt="" />
                     <h5 className={`${worksan.className} text-[#5CD2B9] text-md font-bold tracking-tight`}>
-                        20<span className='text-white'>+</span>
+                        4<span className='text-white'>+</span>
                     </h5>
                     <p className="font-normal">
                         Award Winning
@@ -49,7 +49,7 @@ const Clients = () => {
                 <Card className='text-center !p-0 !bg-transparent border-none'>
                     <Image src={team} alt="" />
                     <h5 className={`${worksan.className} text-[#5CD2B9] text-md font-bold tracking-tight`}>
-                        45<span className='text-white'>+</span>
+                        10<span className='text-white'>+</span>
                     </h5>
                     <p className="font-normal">
                         Team Members
