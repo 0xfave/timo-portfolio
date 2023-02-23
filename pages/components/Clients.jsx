@@ -16,7 +16,7 @@ const Clients = () => {
                 <Card className='text-center !p-0 !bg-transparent border-none'>
                     <Image src={project} alt="" />
                     <h5 className={`${worksan.className} text-[#5CD2B9] text-md font-bold tracking-tight`}>
-                        20<span className='text-white'>+</span>
+                        30<span className='text-white'>+</span>
                     </h5>
                     <p className={`${worksan.className} font-normal`}>
                         Project Done
@@ -27,7 +27,7 @@ const Clients = () => {
                 <Card className='text-center !p-0 !bg-transparent border-none'>
                     <Image src={happy} alt="" />
                     <h5 className={`${worksan.className} text-[#5CD2B9] text-md font-bold tracking-tight`}>
-                        75<span className='text-white'>+</span>
+                        20<span className='text-white'>+</span>
                     </h5>
                     <p className={`${worksan.className} font-normal`}>
                         Happy Customer
