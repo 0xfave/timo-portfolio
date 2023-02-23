@@ -22,7 +22,7 @@ const Header = () => {
             </div>
             <div className="flex items-center justify-center pt-6 pl-6">
                 {/* mt-8 lg:mt-0 h-72 sm:h-80 lg:h-96 xl:h-112 2xl:h-128 */}
-                <Image src={portrait} alt="" className="object-contain -mt-40 lg:h-[500px] lg:pl-[415px]"/>
+                <Image src={portrait} alt="" className="object-contain -mt-40 lg:h-[500px] xl:pl-[415px]"/>
             </div>
         </div>
     )
