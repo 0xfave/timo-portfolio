@@ -1,5 +1,5 @@
 import React from 'react'
-
+import logo from '../../public/logo.jpg'
 import { Navbar } from 'flowbite-react'
 
 const Navgation = () => {
@@ -9,15 +9,15 @@ const Navgation = () => {
             rounded={true}
             className="!bg-black"
         >
-            <Navbar.Brand href="https://flowbite.com/" className='!sm:ml-0 lg:ml-32'>
+            <Navbar.Brand href="https://flowbite.com/" className='ml-0 lg:ml-32'>
                 <img
-                    src="https://flowbite.com/docs/images/logo.svg"
+                    src="logo.jpg"
                     className="mr-3 h-6 sm:h-9"
                     alt="Flowbite Logo"
                 />
-                <span className="self-center whitespace-nowrap text-xl font-semibold dark:text-white">
+                {/* <span className="self-center whitespace-nowrap text-xl font-semibold dark:text-white">
                     Flowbite
-                </span>
+                </span> */}
             </Navbar.Brand>
             <div className="flex !mr-0">
                 <Navbar.Toggle />
