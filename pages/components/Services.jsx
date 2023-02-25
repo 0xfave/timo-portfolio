@@ -19,8 +19,8 @@ const Services = () => {
                 </h1>
                 <div className="h-1 bg-[#5CD2B9] w-16 !m-0"></div>
                 <p className={`${roboto.className} mt-6 mb-8 text-base font-medium sm:mb-12`}>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum facilisis quam eget ex blandit cursus. Proin est magna, semper a porta sed, lacinia eu lectus. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum facilisis quam eget ex blandit cursus. Proin est magna, semper a porta sed, lacinia eu lectus.
-                    {/* <br className="hidden md:inline lg:hidden">turpis pulvinar, est scelerisque ligula sem </br> */}
+                    Our Services are quite outstanding!
+                    raging from designing custom flyers, logos and banners for brands, social media handles and digital companies, building any form of highly responsive websites for freelance or business agencies, Aesthetically pleasing and interactive user experience design for applications and websites and high quality sales video for advertising purposes that drives audiences!
                 </p>
                 <Button className='!bg-[#5CD2B9] w-[154px] !rounded-none'>VIEW ALL</Button>
             </div>
@@ -29,10 +29,10 @@ const Services = () => {
                     <Card className='text-center !p-0 !bg-[#0C0C0C] border-none'>
                         <Image src={identity} alt="" />
                         <h5 className="text-md font-bold tracking-tight">
-                            Brand Identity
+                            GRAPHICS DESIGN
                         </h5>
                         <p className="font-normal">
-                            cursus. Proin est magna, semper a porta sed, lacinia eu lectus.
+                            custom logos, banners and flyers for exposure of brand identity
                         </p>
                     </Card>
                 </div>
@@ -43,7 +43,7 @@ const Services = () => {
                             Website Design
                         </h5>
                         <p className="font-normal">
-                            cursus. Proin est magna, semper a porta sed, lacinia eu lectus.
+                            highly responsive websites for businesses with high quality content and detailed sections.
                         </p>
                     </Card>
                 </div>
@@ -54,7 +54,7 @@ const Services = () => {
                             UI & UX Design
                         </h5>
                         <p className="font-normal">
-                            cursus. Proin est magna, semper a porta sed, lacinia eu lectus.
+                            accessible User interface and experience that enhances user&apos;s satisfaction
                         </p>
                     </Card>
                 </div>
@@ -62,10 +62,10 @@ const Services = () => {
                     <Card className='text-center !p-0 !bg-[#0C0C0C] border-none'>
                         <Image src={video} alt="" />
                         <h5 className="text-md font-bold tracking-tight">
-                            Video Marketing
+                            SALES VIDEO
                         </h5>
                         <p className="font-normal">
-                            cursus. Proin est magna, semper a porta sed, lacinia eu lectus.
+                            Sales videos capable of exposing and advertising brand or project ideas
                         </p>
                     </Card>
                 </div>

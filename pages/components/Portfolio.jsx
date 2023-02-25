@@ -15,7 +15,7 @@ const Portfolio = () => {
                 <h1 className="!text-5xl font-extrabold leading-none sm:text-4xl">Latest<span className='text-[#5CD2B9]'> Work</span>.</h1>
                 <div className="h-1 bg-[#5CD2B9] w-16"></div>
                 <p className={`${roboto.className} mt-6 text-sm font-medium`}>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum facilisis quam eget ex blandit cursus. Proin est magna, semper a porta sed, lacinia eu lectus. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum facilisis quam eget ex blandit cursus. Proin est magna, semper a porta sed, lacinia eu lectus.
+                    Get in touch with both our latest and past works arranged professionally for the purpose of keeping visitors company while their projects are being worked on and to get design inspirations and ideas for upcoming projects.
                 </p>
             </div>
             <div className='grid md:grid-cols-3 gap-4'>

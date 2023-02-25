@@ -22,8 +22,7 @@ const Aboutus = () => {
                 </h1>
                 <div className="h-1 bg-[#5CD2B9] w-16 !m-0"></div>
                 <p className={`${roboto.className} mt-6 text-base font-medium`}>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum facilisis quam eget ex blandit cursus. Proin est magna, semper a porta sed, lacinia eu lectus. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum facilisis quam eget ex blandit cursus. Proin est magna, semper a porta sed, lacinia eu lectus.
-                    {/* <br className="hidden md:inline lg:hidden">turpis pulvinar, est scelerisque ligula sem </br> */}
+                    Based on our integrity and hard work, our creativity exposes every area of our current and past works for clients to get in touch with any of our services and for customers to keep their projects on a great recurring level which drives more potential audiences into our world.
                 </p>
                 <div className='grid md:grid-cols-2 gap-2 !m-0 mt-0'>
                     <div className="max-w-[200px]">
@@ -34,7 +33,7 @@ const Aboutus = () => {
                                     Website Design
                                 </h5>
                                 <p className="font-normal text-sm col-span-2">
-                                    cursus. Proin est magna, semper a porta sed, lacinia eu lectus.
+                                    We build trust with our customers via corporate and interactive website build up
                                 </p>
                             </div>
                         </Card>
@@ -47,7 +46,7 @@ const Aboutus = () => {
                                     Modern Design
                                 </h5>
                                 <p className="font-normal text-sm col-span-2">
-                                    cursus. Proin est magna, semper a porta sed, lacinia eu lectus.
+                                    Our designs are off being old-fashioned and outdated but on a  modernized and long-lasting level.
                                 </p>
                             </div>
                         </Card>

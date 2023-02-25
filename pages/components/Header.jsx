@@ -3,8 +3,8 @@ import Image from 'next/image'
 import { Poppins } from '@next/font/google'
 import { Roboto } from '@next/font/google'
 import portrait from '../../public/portrait.png'
-const poppins = Poppins({ weight:"600", subsets: ['latin'] })
-const roboto = Roboto({ weight:"400", subsets: ['latin'] })
+const poppins = Poppins({ weight: "600", subsets: ['latin'] })
+const roboto = Roboto({ weight: "400", subsets: ['latin'] })
 
 const Header = () => {
     return (
@@ -16,13 +16,12 @@ const Header = () => {
                 </h1>
                 <div className="h-1 bg-[#5CD2B9] w-16 !m-0"></div>
                 <p className={`${roboto.className} mt-6 mb-8 text-base font-medium sm:mb-12`}>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum facilisis quam eget ex blandit cursus. Proin est magna, semper a porta sed, lacinia eu lectus.
-                    {/* <br className="hidden md:inline lg:hidden">turpis pulvinar, est scelerisque ligula sem </br> */}
+                    As regards our brand name, one of our watch word is to provide creative ideas and advertising initiatives to foster acheivement of goals for brands and projects.
                 </p>
             </div>
             <div className="flex items-center justify-center pt-6 pl-6">
                 {/* mt-8 lg:mt-0 h-72 sm:h-80 lg:h-96 xl:h-112 2xl:h-128 */}
-                <Image src={portrait} alt="" className="object-contain -mt-40 lg:h-[500px] xl:pl-[415px]"/>
+                <Image src={portrait} alt="" className="object-contain -mt-40 lg:h-[500px] xl:pl-[415px]" />
             </div>
         </div>
     )
