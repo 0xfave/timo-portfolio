@@ -12,9 +12,9 @@ const Footer = () => {
                         <h5 className="text-2xl font-bold tracking-tight">
                             Have any Project in <br />Mind?
                         </h5>
-                        <p className="font-normal text-gray-700 dark:text-gray-400">
+                        {/* <p className="font-normal text-gray-700 dark:text-gray-400">
                             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum facilisis quam
-                        </p>
+                        </p> */}
                         <p className='text-[#5CD2B9]'>Chat</p>
                     </Card>
                 </div>

@@ -1,5 +1,6 @@
 import React from 'react'
 import logo from '../../public/logo.jpg'
+import Link from 'next/link'
 import { Navbar } from 'flowbite-react'
 
 const Navgation = () => {
@@ -31,14 +32,14 @@ const Navgation = () => {
                     Home
                 </Navbar.Link>
                 <Navbar.Link href="/navbars" className="!text-[#F9F9F9]">
-                    About
-                </Navbar.Link>
-                <Navbar.Link href="/navbars" className="!text-[#F9F9F9]">
                     Services
                 </Navbar.Link>
-                <Navbar.Link href="/navbars" className="!text-[#F9F9F9]">
-                    Pricing
+                <Navbar.Link href="/Aboutus" className="!text-[#F9F9F9]">
+                    About
                 </Navbar.Link>
+                {/* <Navbar.Link href="/navbars" className="!text-[#F9F9F9]">
+                    Pricing
+                </Navbar.Link> */}
                 <Navbar.Link href="/navbars" className="!text-[#F9F9F9]">
                     Contact
                 </Navbar.Link>

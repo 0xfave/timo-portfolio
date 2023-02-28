@@ -11,7 +11,7 @@ const Header = () => {
         <div className="container !pb-0 !max-w-[1450px] flex flex-col justify-center pt-2 mx-auto sm:py-6 lg:py-12 lg:flex-row lg:justify-between text-left bg-gradient-to-r from-black to-[#5cd2b940]">
             {/* bg-[url('../public/bg.png')] */}
             <div className="flex flex-col justify-center p-6 text-left rounded-sm lg:max-w-md xl:max-w-lg lg:text-left lg:ml-32">
-                <p className={`${poppins.className} text-[#5CD2B9]`}>CREATIVE AGENCY</p>
+                <p className={`${poppins.className} text-[#5CD2B9]`}>TIMTECHY CREATIVE AGENCY</p>
                 <h1 className="!text-5xl font-extrabold leading-none sm:text-4xl">WE ARE <span className='text-[#5CD2B9]'>CREATIVE</span> <br /> DESIGN AGENCY
                 </h1>
                 <div className="h-1 bg-[#5CD2B9] w-16 !m-0"></div>
