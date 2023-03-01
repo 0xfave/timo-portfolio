@@ -25,21 +25,21 @@ const Navgation = () => {
             </div>
             <Navbar.Collapse>
                 <Navbar.Link
-                    href="/navbars"
+                    href="/Header"
                     active={true}
                     className="!text-[#F9F9F9]"
                 >
                     Home
                 </Navbar.Link>
-                <Navbar.Link href="/navbars" className="!text-[#F9F9F9]">
+                <Navbar.Link href="/Services" className="!text-[#F9F9F9]">
                     Services
                 </Navbar.Link>
                 <Navbar.Link href="/Aboutus" className="!text-[#F9F9F9]">
                     About
                 </Navbar.Link>
-                {/* <Navbar.Link href="/navbars" className="!text-[#F9F9F9]">
-                    Pricing
-                </Navbar.Link> */}
+                <Navbar.Link href="/Portfolio" className="!text-[#F9F9F9]">
+                    Portfolio
+                </Navbar.Link>
                 <Navbar.Link href="/navbars" className="!text-[#F9F9F9]">
                     Contact
                 </Navbar.Link>
