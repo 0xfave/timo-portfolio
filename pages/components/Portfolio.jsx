@@ -4,8 +4,9 @@ import { Roboto } from '@next/font/google'
 import Image from 'next/image'
 const poppins = Poppins({ weight: "600", subsets: ['latin'] })
 const roboto = Roboto({ weight: "400", subsets: ['latin'] })
-import girl2 from '../../public/girl2.png'
-import drug from '../../public/drug.png'
+import girl2 from '../../public/2d1.jpg'
+import drug from '../../public/3d.jpg'
+import turtlers from '../../public/turtlers.jpg'
 
 const Portfolio = () => {
     return (
@@ -20,6 +21,15 @@ const Portfolio = () => {
             </div>
             <div className='grid md:grid-cols-3 gap-4'>
                 <div>
+                    <Image src={girl2} className="h-[416px] w-[416px]" alt="" />
+                </div>
+                <div>
+                    <Image src={drug} alt="" />
+                </div>
+                <div>
+                    <Image src={turtlers} alt="" />
+                </div>
+                {/* <div>
                     <Image src={girl2} alt="" />
                 </div>
                 <div>
@@ -36,16 +46,7 @@ const Portfolio = () => {
                 </div>
                 <div>
                     <Image src={girl2} alt="" />
-                </div>
-                <div>
-                    <Image src={girl2} alt="" />
-                </div>
-                <div>
-                    <Image src={drug} alt="" />
-                </div>
-                <div>
-                    <Image src={girl2} alt="" />
-                </div>
+                </div> */}
             </div>
         </div>
     )
