@@ -2,6 +2,7 @@ import { Card } from 'flowbite-react'
 import { Work_Sans } from '@next/font/google'
 const worksan = Work_Sans({ weight: "600", subsets: ['latin'] })
 import React from 'react'
+import { BsTelegram } from "react-icons/bs";
 
 const Footer = () => {
     return (
@@ -15,7 +16,9 @@ const Footer = () => {
                         {/* <p className="font-normal text-gray-700 dark:text-gray-400">
                             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum facilisis quam
                         </p> */}
-                        <p className='text-[#5CD2B9]'>Chat</p>
+                        <a href="https://t.me/nftslife/" className='text-[#5CD2B9]'>
+                            <BsTelegram />
+                        </a>
                     </Card>
                 </div>
                 <div>
